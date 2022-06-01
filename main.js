@@ -8,9 +8,9 @@ let efectivo
 let respuestaInput
 let cantidad = 0 
 let acum = 0
+const productos = ['macetas', 'estantes', 'velasAromaticas'];
 function calcularPrecio(cantidad,precio) {
     return cantidad*precio
-    
 }
    
 do {
@@ -24,8 +24,8 @@ do {
     case "0":
         break;    
     case "1": 
-        macetas = 200
-        alert(`Genial, las macetas cuestan $${macetas} cada una`)
+        productos[0] = 200
+        alert(`Genial, las macetas cuestan $${productos[0]} cada una`)
         cantidad = prompt(`Ingrese cantidad que quiera comprar`)
         if(isNaN(cantidad)){
             alert(`Ingrese la cantidad de forma numerica`)
@@ -35,8 +35,8 @@ do {
         }
        break;
     case "2": 
-        estantes = 500
-        alert(`Genial, los estantes cuestan $${estantes} cada unidad`)
+        productos[1] = 500
+        alert(`Genial, los estantes cuestan $${productos[1]} cada unidad`)
         cantidad = prompt(`Ingrese cantidad que quiera comprar`)
         if(isNaN(cantidad)){
             alert(`Ingrese la cantidad de forma numerica`)
@@ -46,8 +46,8 @@ do {
         }    
         break;
     case "3":
-        velasAromaticas = 100
-        alert(`Genial, las velas aromaticas cuestan $${velasAromaticas} cada una`)
+        productos[2] = 100
+        alert(`Genial, las velas aromaticas cuestan $${productos[2]} cada una`)
         cantidad = prompt(`Ingrese cantidad que quiera comprar`)
         if(isNaN(cantidad)){
             alert(`Ingrese la cantidad de forma numerica`)
