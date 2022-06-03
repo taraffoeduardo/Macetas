@@ -91,3 +91,25 @@ header{
     }
     
 }
+// Section
+#banner{
+    padding: 0 50px;
+    background-image: url(../assets/index/fondo.jpeg);
+    height: 60vh;
+    background-size: 50%;
+    background-position: center;
+    
+}
+.contenido-banner{
+    h3{
+        font-size: 30px;
+        font-weight: 400;
+        
+        
+    }
+    // position: relative;
+    // height: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+}
