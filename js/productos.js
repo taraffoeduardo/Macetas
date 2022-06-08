@@ -1,23 +1,24 @@
-class producto{
+class Producto {
     constructor(nombre,precio,imagen){
-        this.nombre=nombre
-        this.precio=precio
-        this.imagen=imagen
+        this.nombre = nombre;
+        this.precio = precio;
+        this.imagen = imagen;
     }
-}
-generarHTML = ()=>{
-    return `<p> El/La ${this.nombre} cuesta ${this.precio}</p><br> <img src="${this.imagen}" alt="${this.nombre}"height="400 px" width="400 px">`
+
+generarHTML = () =>{
+    return `<p> La ${this.nombre} cuesta ${this.precio}</p><br> <img src="${this.imagen}" alt="${this.nombre}"height="400 px" width="400 px">`;
+};
 }
 
 let productos = [
-    new producto('estante',200,'https://hiperlibertad.vteximg.com.br/arquivos/ids/158549-1000-1000/ESTANTE-C-SOP-60X20-BCO-1-2045.jpg?v=637236251904830000'),
-    new producto('alcancia',500,'alcancia.jpeg'),
-    new producto('jabonera',300,'jabonera.jpeg')
-]
+    new Producto('estanteria',200,'../assets/productos/estante.jpeg'),
+    new Producto('alcancia',500,'../assets/productos/alcancia.jpeg'),
+    new Producto('jabonera',300,'../assets/productos/jabonera.jpeg'),
+];
 
-let destino = document.getElementById('mercaderia')
-for(producto of productos){
-    let nuevoEle = document.createElement('div')
-    nuevoEle.innerHTML = mercaderia.generarHTML()
-    destino.append(nuevoEle)
+let destino = document.getElementById('mercaderia');
+for(item of productos){
+    nuevoEle = document.createElement('div');
+    nuevoEle.innerHTML = item.generarHTML();
+    destino.append(nuevoEle);
 }
