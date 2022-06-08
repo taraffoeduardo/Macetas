@@ -80,4 +80,15 @@ header {
 
 .contenido-banner h3 {
   font-size: 30px;
-  font-weight: 400; }
+  font-weight: 400;
+  margin-bottom: 25px; }
+
+.contenido-banner .boton-empezar {
+  text-decoration: none;
+  border: 1px solid #6cc091;
+  padding: 20px 40px;
+  align-self: baseline;
+  margin-top: 200px; }
+
+.contenido-banner .boton-empezar:hover {
+  background: #6cc09070; }

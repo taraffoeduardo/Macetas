@@ -104,12 +104,21 @@ header{
     h3{
         font-size: 30px;
         font-weight: 400;
-        
-        
+        margin-bottom: 25px;
     }
     // position: relative;
     // height: 100%;
     // display: flex;
     // flex-direction: column;
     // justify-content: center;
+    .boton-empezar{
+      text-decoration: none;
+      border: 1px solid #6cc091;  
+      padding: 20px 40px;
+      align-self: baseline;
+      margin-top: 200px;
+    }
+    .boton-empezar:hover{
+        background: #6cc09070;
+    }
 }
