@@ -7,10 +7,10 @@ form.addEventListener('submit',(evento)=>{
     evento.preventDefault()
     console.log(nombre.value,apellido.value,edad.value)
     if(nombre.value === '' || nombre.value === null || nombre.value === 'undefined'){
-        alert('El cambpo nombre no puede estar vacio')
+        alert('El campo nombre no puede estar vacio')
     }else{
         if(apellido.value === '' || apellido.value === null || apellido.value === 'undefined'){
-            alert('El cambpo apellido no puede estar vacio')
+            alert('El campo apellido no puede estar vacio')
     }else{
         alert('Tus datos fueron enviados con exito')
     }
