@@ -8,6 +8,8 @@
     </title>
     <link rel="stylesheet" href="../css/index.css" type="text/css">
     <script src="../scripts/contacto.js" defer></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    
 </head>
 <body>
  <header>
@@ -19,22 +21,24 @@
 <nav class="nav_container">
         <a href="../index.html">Inicio</a>
         <a href="./productos.html">Productos</a>
-        <a href="">Nosotros</a>
-        <a href="">Contacto</a>
+        <a href="./nosotros.html">Nosotros</a>
+        <a href="./contacto.html">Contacto</a>
         <label for="check" class="esconder-menu">
             &#215
         </label>
 </nav>
  </header>
  <main>
-     <div>
+     <div class="form">
          <form id="formulario">
-           <label for="nombre1">nombre</label>
+           <label for="nombre1">Nombre</label>
            <input type="text" name="nombre1" id="nombre1">
-           <label for="apellido1">apellido</label>
+           <label for="apellido1">Apellido</label>
            <input type="text" name="apellido1" id="apellido1">
-           <label for="edad1">edad</label>
-           <input type="text" name="edad1" id="edad1">
+           <label for="edad1">Edad</label>
+           <input type="number" name="edad1" id="edad1">
+           <label  for="comentario">Ingrese su comentario</label>
+           <input class="comentario" type="text" name="comentario" id="comentario">
            <input type="submit" value="Enviar">
          </form>
 
@@ -42,8 +46,14 @@
 
  </main>
  <footer>
+<ul>
+    <li>Facebook</li>
+    <li>Instagram</li>
+    <li>Mercadolibre</li>
+    
+</ul>
 
  </footer>
-   
+  
 </body>
 </html> 

@@ -2,5 +2,10 @@ let stockProductos = [
     {id: 1, nombre: "Estante", tipo: "estante", cantidad: 1, desc: "Para tus llaves", precio: 1200, img: '../assets/productos/estante.jpeg'},
     {id: 2, nombre: "Alcancia", tipo: "alcancia", cantidad: 1, desc: "Para guardar tus ahorros", precio: 1500, img: '../assets/productos/alcancia.jpeg'},
     {id: 3, nombre: "Jabonera", tipo: "jabonera", cantidad: 1, desc: "Para tus jabones", precio: 1000, img: '../assets/productos/jabonera.jpeg'},
+    {id: 4, nombre: "Cepillo", tipo: "cepillo", cantidad: 1, desc: "Para tus cepillos", precio: 800, img: '../assets/productos/cepillos.jpeg'},
+    {id: 5, nombre: "Macetas", tipo: "macetas", cantidad: 1, desc: "Macetas de madera", precio: 500, img: '../assets/productos/macetas.jpeg'},
+    {id: 6, nombre: "Florero", tipo: "florero", cantidad: 1, desc: "Para tus plantas", precio: 650, img: '../assets/productos/florero.jpeg'},
+    {id: 7, nombre: "Lampara", tipo: "lampara", cantidad: 1, desc: "Para tu mesa de dormir", precio: 1900, img: '../assets/productos/lampara.jpeg'},
+    {id: 8, nombre: "Llavero", tipo: "llavero", cantidad: 1, desc: "Para tus llaves", precio: 1300, img: '../assets/productos/llavero.jpeg'},
     
 ]
