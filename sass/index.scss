@@ -17,6 +17,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    a{
+        text-decoration: none;
+
+    }
 }
 .logo{
     text-transform: uppercase;
@@ -112,14 +116,67 @@ header{
         margin-bottom: 25px;
     }
     
-    .boton-empezar{
-      text-decoration: none;
-      border: 1px solid #6cc091;  
-      padding: 20px 40px;
-      align-self: baseline;
-      margin-top: 200px;
+    
+}
+//footer
+footer{
+    margin-top: 20px;
+    background-color:#87da9d;
+.ul_footer{
+    display: flex;
+    list-style: none;
+    
+}
+.li_footer{
+    margin: 20px;
+
+    a{
+    text-decoration: none;
     }
-    .boton-empezar:hover{
-        background: #6cc09070;
+    
+    
+}}
+//carrusel
+.carrusel{
+    h3{
+        text-align: center;
+        margin: 20px;
     }
+.galeria{
+    margin: auto;
+    width: 95%;
+    overflow: hidden;
+
+}
+.ul_galeria{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    width: 300%;
+    animation: cambio 20s infinite alternate;
+    text-align: center;
+   
+    
+    
+}
+.li_galeria{
+    width: 85%;
+    height: 600px;
+    img{
+    width: 85%;
+    height: 600px;
+    }
+
+}
+}
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
 }

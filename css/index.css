@@ -1,16 +1,42 @@
-#formulario {
-  width: 100%;
-  max-width: 600px;
-  margin: 140px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #bcf494;
-  border-radius: 5%; }
+body {
+  background-image: url(../assets/index/fondo.jpeg);
+  height: 80vh;
+  background-size: 50%;
+  background-position: center; }
 
-.comentario {
-  width: auto 406px; }
+form {
+  width: 340px;
+  height: 440px;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(100vw -40px);
+  padding: 20px 30px;
+  background: rgba(0, 0, 0, 0.4);
+  max-width: calc(100vw -40px);
+  margin: 50px auto; }
+
+#boton {
+  background: #87da9d;
+  color: #fff;
+  padding: 5px;
+  width: 100%;
+  text-align: center; }
+
+#boton:hover {
+  cursor: pointer; }
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  font-size: 17px; }
+
+textarea {
+  min-height: 100px;
+  max-height: 300px;
+  max-width: 100%;
+  max-height: 100px; }
 
 * {
   margin: 0;
@@ -159,6 +185,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  header a {
+    text-decoration: none; }
 
 .logo {
   text-transform: uppercase;
@@ -231,12 +259,56 @@ header {
   font-weight: 400;
   margin-bottom: 25px; }
 
-.contenido-banner .boton-empezar {
-  text-decoration: none;
-  border: 1px solid #6cc091;
-  padding: 20px 40px;
-  align-self: baseline;
-  margin-top: 200px; }
+footer {
+  margin-top: 20px;
+  background-color: #87da9d; }
+  footer .ul_footer {
+    display: flex;
+    list-style: none; }
+  footer .li_footer {
+    margin: 20px; }
+    footer .li_footer a {
+      text-decoration: none; }
 
-.contenido-banner .boton-empezar:hover {
-  background: #6cc09070; }
+.carrusel h3 {
+  text-align: center;
+  margin: 20px; }
+
+.carrusel .galeria {
+  margin: auto;
+  width: 95%;
+  overflow: hidden; }
+
+.carrusel .ul_galeria {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  width: 300%;
+  animation: cambio 20s infinite alternate;
+  text-align: center; }
+
+.carrusel .li_galeria {
+  width: 85%;
+  height: 600px; }
+  .carrusel .li_galeria img {
+    width: 85%;
+    height: 600px; }
+
+@keyframes cambio {
+  0% {
+    margin-left: 0; }
+  20% {
+    margin-left: 0; }
+  25% {
+    margin-left: -100%; }
+  45% {
+    margin-left: -100%; }
+  50% {
+    margin-left: -200%; }
+  70% {
+    margin-left: -200%; }
+  75% {
+    margin-left: -300%; }
+  100% {
+    margin-left: -300%; } }

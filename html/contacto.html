@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,53 +9,57 @@
     </title>
     <link rel="stylesheet" href="../css/index.css" type="text/css">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script   src="../scripts/contacto.js" defer></script>
-    
-    
+    <script src="../scripts/contacto.js" defer></script>
+
+
 </head>
+
 <body>
- <header>
-     <h1 class="logo">Macetas y Mas</h1>
-     <input type="checkbox" id="check">
-     <label for="check" class="mostrar-menu">
-         &#8801
-     </label>
-<nav class="nav_container">
-        <a href="../index.html">Inicio</a>
-        <a href="./productos.html">Productos</a>
-        <a href="./nosotros.html">Nosotros</a>
-        <a href="./contacto.html">Contacto</a>
-        <label for="check" class="esconder-menu">
-            &#215
+    <header>
+        <h1 class="logo">Macetas y Mas</h1>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
         </label>
-</nav>
- </header>
- <main>
-     <div class="form">
-         <form id="formulario">
-           <label for="nombre1">Nombre</label>
-           <input type="text" name="nombre1" id="nombre1">
-           <label for="apellido1">Apellido</label>
-           <input type="text" name="apellido1" id="apellido1">
-           <label for="edad1">Edad</label>
-           <input type="number" name="edad1" id="edad1">
-           <label  for="comentario">Ingrese su comentario</label>
-           <input class="comentario" type="text" name="comentario" id="comentario">
-           <input type="submit" value="Enviar">
-         </form>
+        <nav class="nav_container">
+            <a href="../index.html">Inicio</a>
+            <a href="./productos.html">Productos</a>
 
-     </div>
+            <a href="./contacto.html">Contacto</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
+        </nav>
+    </header>
+    <main>
+        <section class="section_form">
+        <div class="form">
+            <form id="formulario">
+                <label for="nombre1">Nombre</label>
+                <input type="text" name="nombre1" id="nombre1">
+                <label for="apellido1">Apellido</label>
+                <input type="text" name="apellido1" id="apellido1">
+                <label for="edad1">Edad</label>
+                <input type="number" name="edad1" id="edad1">
+                <label for="comentario">Ingrese su comentario</label>
+                <textarea class="comentario" type="text" name="comentario" id="comentario" name="mensaje"
+                placeholder="Escriba aqui su mensaje"></textarea>
+                <button id="boton" type="submit" value="Enviar">Enviar</button>
+            </form>
 
- </main>
- <footer>
-<ul>
-    <li>Facebook</li>
-    <li>Instagram</li>
-    <li>Mercadolibre</li>
-    
-</ul>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <ul class="ul_footer">
 
- </footer>
-  
+            <li class="li_footer"><a href="https://www.facebook.com/macetasymas_-105930151222994"
+                    target="_blank">Facebook</a></li>
+            <li class="li_footer"><a href="https://www.instagram.com/macetasymas_/" target="_blank">Instagram</a></li>
+        </ul>
+
+    </footer>
+
 </body>
-</html> 
+
+</html>

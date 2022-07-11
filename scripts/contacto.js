@@ -34,13 +34,16 @@ form.addEventListener('submit',(evento)=>{
         icon: "success",
         title: 'Mensaje enviado',
         text: 'Su mensaje fue enviado con exito'
+        
+        
 
     });
     
         
     }
-        
-    })
+      
+    }
+    )
 
 
 
